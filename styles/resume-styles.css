@@ -1,0 +1,55 @@
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#education, #work-experience, .education-div, .work-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#education, #work-experience{
+    flex-direction: column;
+}
+
+.left-div{
+    margin-right: auto;
+}
+
+.right-div{
+    margin-left: auto;
+}
+
+.education-div{
+    width: 80%;
+    height: 33%;
+    flex-direction: row;
+    gap: 5%;
+    margin: 5% 0 5% 0;
+}
+
+.work-div{
+    width: 80%;
+    height: 25%;
+    flex-direction: row;
+    gap: 5%;
+    margin: 5% 0 5% 0;
+}
+
+.info-div, .display-div{
+    width: 40%;
+}
+
+.job-description-div{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    width: 100%;
+}
+
+.description{
+    width: 50%;
+}

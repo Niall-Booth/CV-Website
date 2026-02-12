@@ -1,0 +1,23 @@
+#personal-description{
+    text-wrap: wrap;
+    text-align: center;
+    width: 50%;
+    font-size: 20px;
+}
+
+#personal-profile,#key-skills, #key-skills-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#personal-profile, #key-skills{
+    height: 100vh;
+    flex-direction: column;
+}
+
+#key-skills-div{
+    flex-direction: row;
+    font-size: 20px;
+}
