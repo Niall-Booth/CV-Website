@@ -1,0 +1,23 @@
+#personal-description, #hobbies-and-interests{
+    text-wrap: wrap;
+    text-align: center;
+    width: 50%;
+    font-size: 20px;
+}
+
+#personal-profile,#key-skills, #key-skills-div, #hobbies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#personal-profile, #key-skills, #hobbies{
+    height: 100vh;
+    flex-direction: column;
+}
+
+#key-skills-div{
+    flex-direction: row;
+    font-size: 20px;
+}
