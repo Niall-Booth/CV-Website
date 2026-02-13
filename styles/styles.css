@@ -104,3 +104,7 @@ nav li{
     border-top: 5px dotted #00F7FF;
     width: 10%;
 }
+
+.custom-link{
+    color: #00F7FF;
+}
